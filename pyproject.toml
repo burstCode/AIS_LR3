@@ -1,0 +1,25 @@
+[project]
+name = "fuzzy-lr3"
+version = "0.1.0"
+description = "ЛР №3: нечёткие системы логического вывода"
+readme = "README.md"
+authors = [
+    { name = "burstlimit", email = "zhukov.mx707@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "plotly>=7.1.0",
+    "streamlit>=1.65.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
